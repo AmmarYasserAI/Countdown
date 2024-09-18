@@ -1,41 +1,10 @@
-@font-face {
-    font-family: 'Bukra';
-    src: url('fonts/29ltbukraregular.ttf') format('truetype'),
-         url('fonts/29ltbukraregular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bukra';
-    src: url('fonts/29ltbukrabold.ttf') format('truetype'),
-         url('fonts/29ltbukrabold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Bukra';
-    src: url('fonts/29ltbukralight.ttf') format('truetype'),
-         url('fonts/29ltbukralight.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Bukra';
-    src: url('fonts/29ltbukrabolditalic.ttf') format('truetype'),
-         url('fonts/29ltbukrabolditalic.otf') format('opentype');
-    font-weight: bold;
-    font-style: italic;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
 
 
 
 
  body{
-    font-family: 'Bukra', sans-serif;
+  font-family: 'Cairo', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
